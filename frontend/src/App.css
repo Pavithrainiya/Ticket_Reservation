@@ -1,0 +1,16 @@
+.main h3 {
+  position: relative;
+  bottom: 47px;
+  font-size: 28px;
+  background-color: rgba(25, 238, 231, 0.544);
+  width: 1600px;
+  right: 30px;
+  font-weight: 600;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.main h3.visible {
+  opacity: 1;
+}

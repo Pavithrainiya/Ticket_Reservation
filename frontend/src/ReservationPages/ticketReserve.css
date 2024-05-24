@@ -1,0 +1,120 @@
+.main
+{
+    margin:0;
+    padding: 0;
+    background-image: url(res4.jpg);
+    z-index: -1;
+    height:720px;
+    overflow: hidden;
+}  
+.main h3{
+      position: relative;
+      bottom: 47px;
+      height: 40px;
+      color: #fff;
+      font-size: 28px;
+      background-color: rgba(25, 238, 231, 0.544);
+      width: 1600px;
+      right:30px;
+      font-weight: 600;
+      text-align: center;
+      text-shadow: 3px 3px 8px rgb(249, 0, 241);
+}
+
+
+form{
+    position: relative;
+    width:430px;
+    border-style:double;
+    border-width: 30x;
+    padding:10px;
+    margin-left:540px;
+    border-color: rgb(199, 245, 32);
+    bottom: 40px;
+    /* background:rgba(255, 255, 255, 0.158); */
+    border-radius: 10px;
+    line-height: 30px;
+}
+form label{
+    color:#fff;
+    font-size: 20px;
+}
+form input{
+    background: transparent;
+    height:22px ;
+    width:300PX;
+    color:yellow;
+    font-size: larger;
+    float: right;
+    border-radius: 8px;
+    border-style:groove;
+    border-color: aqua;
+}
+form select{
+    background: transparent;
+    height:22px ;
+    width:307PX;
+    color:yellow;
+    font-size: larger;
+    float: right;
+    border-radius: 8px;
+    border-style:groove;
+    border-color: aqua;
+    height:25px;
+}
+form button{
+    background: darkgreen;
+   
+    padding:5px;
+    color:#fff;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 130px;
+    font-size: larger;
+    font-weight: bold;
+}
+form p{
+    color:rgba(94, 243, 94, 0.89);
+}
+form p strong{
+    font-weight: bold;
+    color:#fff;
+    background:darkgreen;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.results{
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.result {
+    border-style:groove;
+    border-radius: 5px;
+     width:180px;
+     color:rgb(200, 255, 0);
+     margin-left:50px;
+     padding: 10px;
+     background:rgba(0, 0, 0, 0.564);
+}
+.result span
+{
+    color:rgb(255, 255, 255);
+    float: right;
+    
+}
+.result button{
+    background: rgb(3, 148, 244);
+    color:#fff;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width:60px;
+    padding:5px;
+    margin-right: 20px;
+    font-weight: bold;
+    margin-left:10px
+}
